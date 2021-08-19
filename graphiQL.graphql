@@ -1,0 +1,53 @@
+#{
+    #  estudiantes {
+    #    id
+    #    name
+    #    email
+    #    website
+    #    courses {
+    #      id
+    #      title
+    #    }
+    #  }
+    #}
+    
+    #{
+    #  estudiante (id: "1000") {
+    #    id
+    #    name
+    #    email
+    #    website
+    #    courses {
+    #      id
+    #      title
+    #   }
+    #  }
+    #}
+    
+    #{
+    #  cursos {
+    #    id
+    #    title
+    #  }
+    #}
+    
+    #{
+    #  curso (curso: "1") {
+    #    id
+    #    title
+    #    description
+    #    clases
+    #    time
+    #    logo
+    #    path
+    #    reviews {
+    #      name
+    #      points
+    #    }
+    #    students {
+    #      id
+    #      name
+    #    }
+    #  }
+    #}
+    
